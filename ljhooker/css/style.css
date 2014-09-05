@@ -1,0 +1,324 @@
+/* Landscape CSS */
+
+.row {
+	margin-left:0;
+	margin-right:0;
+}
+
+.hidden {
+	display:none;
+}
+
+body {
+	font-size:62.5%;
+}
+
+.portrait, .landscape {
+	background:white;
+
+}
+
+.landscape,.portrait {
+	height: 100vh;
+}
+
+
+
+.nopadding {
+	padding-left:0;
+	padding-right:0;
+}
+
+.header {
+	background:black;
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:20px;
+}
+
+.bigPicture {
+	width:100%;
+}
+
+.smallPic {
+	width:100%;
+	border-right:5px solid black;
+	border-bottom:10px solid black;
+	border-top:10px solid black;
+}
+
+
+.sideHeader {
+	background:black;
+	color:white;
+	border-left:20px solid #ffcc00;
+	font-size:6em;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right: 122px;
+	position:relative;
+}
+
+.rooms {
+	text-align:right;
+	background:#d7d7d7;
+	padding-right: 15px;
+	font-size:3em;
+	color:black;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.numbers {
+	font-size:3em;
+	color:black;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+	box-sizing:border-box;
+
+}
+
+.contentHeader {
+	font-size:5em;
+	padding-left:20px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.contentDescription {
+	padding-left:20px;
+	padding-right:20px;
+	font-size:2.5em;
+	text-align:justify;
+	font-weight: 500;
+}
+
+.footerMargin {
+	margin-top: 15px
+}
+
+.rightFooter {
+
+}
+
+.footerDescription {
+	font-size: 2.3em;
+	text-align:right;
+	padding-right: 20px;
+}
+
+.footerInstruction {
+	font-size: 3.6em;
+	text-align: right;
+	padding-right: 20px;
+	font-weight:500;
+}
+
+.footerPropertyNumber {
+	font-size:3.5em;
+	padding-left: 20px;
+}
+
+.footerNumber {
+	font-size:7em;
+	padding-left: 20px;
+	margin-top: -5px;
+}
+
+.footer2 {
+	margin-top: 15px;
+}
+
+.usemeLogo {
+	width: 85%;
+	margin-top: 104%;
+	margin-left: 23%
+}
+
+.barcodeLogo {
+	width: 67%;
+	margin-top: 56%;
+	margin-left: 23%;
+}
+
+.logos {
+	padding-left: 15px;
+}
+
+
+.portrait {
+	display:none;
+}
+
+/* media query */
+
+.bg-blur1 {
+	z-index:-1;
+	min-height:100%;
+	width:100%;
+	display:block;
+	position:absolute;
+	background:url('../images/bg1.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-blur2 {
+	z-index:-1;
+	min-height:100%;
+	width:100%;
+	display:block;
+	position:absolute;
+	background:url('../images/bg2.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.bg-blur3 {
+	z-index:-1;
+	min-height:100%;
+	width:100%;
+	display:block;
+	position:absolute;
+	background:url('../images/bg3.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+@media only screen and (max-width:1199px) {
+	.sideHeader {
+		padding-right: 0;
+	}
+
+	.barcodeLogo {
+		margin-top:10%;
+	}
+
+	.usemeLogo {
+		width: 85%;
+		margin-top: 59%;
+		margin-left: 23%;
+	}
+
+	.footerInstruction {
+		font-size: 3em;
+	}
+}
+
+/* Landscape CSS */
+
+@media only screen and (max-width:1080px) {
+	.landscape {
+		display:none;
+	}
+
+	.portrait {
+		display:block;
+	}
+
+	.smallPic {
+		border-right: 5px solid black;
+		border-bottom: 5px solid black;
+		border-top:0;
+
+	}
+
+	.sideHeader {
+		margin-top: -5px;
+		margin-bottom:0;
+	}
+
+	.footerInstruction {
+
+		text-align: left;
+		padding-left: 20px;
+		font-weight: 500;
+	}
+
+	.usemeLogo2 {
+		width: 70%;
+		margin-top: 10px;
+
+	}
+
+	.footerDescription {
+		font-size: 3em;
+		text-align: left;
+		padding-left: 20px;
+	}
+
+	.barcodeLogo {
+		width: 67%;
+		margin-left: 5px;
+		margin-top:0;
+	}
+
+	.contentHeader, .footerInstruction {
+		font-size:4em;
+		font-weight:500;
+	}
+
+	.footer-portrait{
+		margin-top: 15px;
+		margin-bottom:50px;
+	}
+
+	.bedroom-with-numbers {
+		border-left:20px solid white;
+	}
+
+	.contentHeader, .footerInstruction {
+		font-size:6em;
+	}
+
+	.usemeContainer {
+		margin-top: 17px;
+	}
+
+	.contentDescription {
+		font-size:2.5em;
+		font-weight:500;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.rooms {
+		text-align: center;
+	}
+
+	.bedroom-with-numbers {
+		border-right: 20px solid white;
+	}
+
+	.usemeLogo2, .barcodeLogo {
+		margin-left: 20px !important;
+		width:200px !important;
+
+	}
+
+	.barcodeLogo {
+		margin-top: 5px;
+	}
+
+	.propertyNumber {
+		background: #898989;
+	}
+}
+
+
+
+
+
+
+
+/* Portrait CSS */
